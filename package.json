@@ -1,0 +1,24 @@
+{
+  "name": "couchbase-lite-mapview-to-query-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node index",
+    "prestart": "ts-node genViewMap"
+  },
+  "keywords": ["couchbase-lite2","couchbase", "mapView", "couchbaselite2", "query"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "ts-node": "^10.3.0",
+    "@babel/generator": "^7.15.8",
+    "typescript": "^4.4.4",
+    "@babel/types": "^7.15.6"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.16",
+    "@types/babel__generator": "^7.6.3",
+    "@types/node": "^16.11.0"
+  }
+}

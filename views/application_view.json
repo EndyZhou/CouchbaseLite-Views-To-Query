@@ -1,0 +1,5 @@
+{
+  "getAllApplications": {
+    "map": "function(doc,meta) { if(doc.type=='client_application'){ if(doc.agentId && doc.transactionId) emit([doc.agentId, doc.transactionId], doc); } }"
+  }
+}

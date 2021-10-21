@@ -1,0 +1,6 @@
+{
+
+    "getAllClientsByAgent": {
+        "map": "function(doc, meta) { if(doc.type == 'client') { const hasPic = doc._attachments? true:false;  var data = { firstName: doc.first,firstCh: doc.firstCh, last: doc.last, lastCh: doc.lastCh, mobilePhone: doc.mobile, home:doc.home, office:doc.office, email: doc.email, gender: doc.gender, dob: doc.dob, smoking: doc.smoking,   hasPic: hasPic ,agentId: doc.agentId, clientId:doc.clientId};  emit([doc.agentId], data) } }"
+    }
+}
